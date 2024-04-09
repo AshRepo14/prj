@@ -1,0 +1,22 @@
+@startuml
+class Product {
+    __str__()
+        __init__()
+}
+class Review {
+    __str__()
+        __init__()
+}
+class Order {
+    __str__()
+        __init__()
+}
+class OrderItem {
+    __str__()
+        __init__()
+}
+class ShippingAddress {
+    __str__()
+        __init__()
+}
+@enduml

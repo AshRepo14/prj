@@ -1,0 +1,32 @@
+@startuml
+class UserSerializer {
+    get__id()
+    get_isAdmin()
+    get_name()
+        __init__()
+}
+class UserSerializerWithToken {
+    get_token()
+        __init__()
+}
+class ReviewSerializer {
+        __init__()
+}
+class ProductSerializer {
+    get_reviews()
+        __init__()
+}
+class ShippingAddressSerializer {
+        __init__()
+}
+class OrderItemSerializer {
+        __init__()
+}
+class OrderSerializer {
+    get_orderItems()
+    get_shippingAddress()
+    get_User()
+        __init__()
+}
+UserSerializer <|-- UserSerializerWithToken
+@enduml
